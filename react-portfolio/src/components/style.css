@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin-top: -3vh;
+  height: 80vh;
+}
+
+/* Header */
+.nav {
+  background-color: #414361;
+  color: #ffa9e7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  min-height: 10vh;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  align-items: center;
+  height: 100%;
+  padding: 0.25rem;
+}
+
+.nav li:active {
+  background-color: #ccb69b;
+}
+
+.nav li:hover {
+  background-color: #7f2ccb;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  min-height: 10vh;
+  padding: 0 1rem;
+  background-color: #414361;
+  color: #ffa9e7;
+}
+
+.footer > a {
+  padding: 0 15px;
+}
+
+/* Home */
+.jumbotron {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 3vh;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #df8453;
+  --color-2: #3d8dae;
+  --color-3: #e4a9a8;
+}
+
+.title-word-2 {
+  --color-1: #dbad4a;
+  --color-2: #accfcb;
+  --color-3: #17494d;
+}
+
+.title-word-3 {
+  --color-1: #accfcb;
+  --color-2: #e4a9a8;
+  --color-3: #accfcb;
+}
+
+.title-word-4 {
+  --color-1: #3d8dae;
+  --color-2: #df8453;
+  --color-3: #e4a9a8;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.title {
+  text-align: right;
+  margin-right: 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: large;
+  text-transform: uppercase;
+}
