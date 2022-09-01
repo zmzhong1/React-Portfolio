@@ -8,6 +8,8 @@ I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 ```
 
+There are a few parts such as download link missing, and the container margin seems to be weirdly off
+
 https://github.com/zmzhong1/React-Portfolio
 
 ![alt text](./react-portfolio/src/img/Screenshot.PNG)
