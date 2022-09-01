@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  margin-top: -3vh;
+  position: relative;
   height: 80vh;
 }
 
@@ -72,12 +72,12 @@ body {
 
 /* Home */
 .jumbotron {
+  margin-top: -1.6 vh;
   width: 100%;
   height: 100%;
   background-image: url(../img/background.jpg);
   background-size: cover;
   background-position: center;
-  margin-top: 3vh;
 }
 
 .title-word {
@@ -135,10 +135,147 @@ body {
 /* Here are just some visual styles. 🖌 */
 
 .title {
+  position: relative;
+  top: 180px;
   text-align: right;
   margin-right: 4rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-size: large;
   text-transform: uppercase;
+}
+
+/* About */
+.aboutMe {
+  text-align: center;
+}
+
+/* .about-image {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/about.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 80%;
+} */
+
+.aboutImg {
+  width: 40%;
+  background-image: url(../img/personal-pic.JPG);
+  background-size: cover;
+  background-position: center;
+  margin-right: 5vh;
+}
+
+.aboutText {
+  color: #414361;
+  flex-grow: 2;
+}
+
+.aboutGrid {
+  display: flex;
+  flex-direction: row;
+  min-height: 50vh;
+}
+/* Portfolio */
+.portfolioContainer {
+  height: 80vh;
+}
+
+.portfolioTitle {
+  text-align: center;
+}
+
+.portfolioGrid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.projectName {
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100%;
+  padding: 2rem;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  flex: 0 1 auto;
+}
+
+/* Contact */
+
+.contactBackground {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.contactTitle {
+  text-align: center;
+}
+
+.contactTitle:hover {
+  color: #414361;
+}
+
+.contactForm {
+  padding: 50px 100px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 12pt;
+}
+
+.contactInput {
+  line-height: 30pt;
+}
+
+/* Resume */
+
+/* <a href="https://www.freepik.com/free-vector/abstract-colorful-technology-dotted-wave-background_6166234.htm#query=background&position=21&from_view=keyword">Image by Harryarts</a> on Freepik */
+.resumeBackground {
+  background-image: url("../img/resume.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.resumeTitle {
+  text-align: center;
+  color: #ffa9e7;
+  padding-top: 5vh;
+  padding-bottom: 15vh;
+}
+
+.resumeProf {
+  text-align: center;
+  color: #ffa9e7;
+  text-decoration: none;
+}
+
+.resumeProfTitle {
+  text-align: center;
+}
+
+.resumeList {
+  list-style: none;
+}
+
+.resumeDownload {
+  text-align: center;
+}
+
+.resumeDownloadLink {
+  text-decoration: none;
+  color: #ffa9e7;
+  font-weight: 600;
 }

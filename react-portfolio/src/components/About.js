@@ -1,18 +1,16 @@
 export default function About() {
   return (
     <section>
-      <div className="column">
-        <figure className="flex">
-          <div></div>
-          <div className="aboutMeStuff">
-            <h3>About me</h3>
-            <p>
-              I am a fullstack web developer from Seattle, Washington. My
-              passion is making practical websites that reflect my love of the
-              outdoors, photography, and a stress-free life.
-            </p>
-          </div>
-        </figure>
+      <div className="aboutMe">
+        <h2>About me</h2>
+        <div className="aboutGrid">
+          <p className="aboutText">
+            I am a fullstack web developer from Seattle, Washington. With the
+            knowledge from UW Bootcamp I intend to utilize these skills into
+            creating fun and creative projects
+          </p>
+          <div className="aboutImg"></div>
+        </div>
       </div>
     </section>
   );
