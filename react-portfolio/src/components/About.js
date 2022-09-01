@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section>
+    <div className="aboutBackground">
       <div className="aboutMe">
         <h2>About me</h2>
         <div className="aboutGrid">
@@ -12,6 +12,6 @@ export default function About() {
           <div className="aboutImg"></div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

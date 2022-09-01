@@ -7,7 +7,7 @@ import vivachat from "../img/VivaChat.png";
 
 export default function Portfolio() {
   return (
-    <section className="container">
+    <section className="portfolioContainer">
       <h2 className="portfolioTitle">Portfolio</h2>
       <div className="portfolioGrid">
         <div className="card">

@@ -133,7 +133,6 @@ body {
 }
 
 /* Here are just some visual styles. 🖌 */
-
 .title {
   position: relative;
   top: 180px;
@@ -146,18 +145,15 @@ body {
 }
 
 /* About */
+
+.aboutBackground {
+  background-color: #ccb69b;
+  height: 100%;
+}
+
 .aboutMe {
   text-align: center;
 }
-
-/* .about-image {
-  width: 100%;
-  height: 100%;
-  background-image: url(../img/about.jpg);
-  background-size: cover;
-  background-position: center;
-  opacity: 80%;
-} */
 
 .aboutImg {
   width: 40%;
@@ -177,9 +173,13 @@ body {
   flex-direction: row;
   min-height: 50vh;
 }
+
 /* Portfolio */
 .portfolioContainer {
   height: 80vh;
+  background-image: url(../img/portfolio.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .portfolioTitle {
